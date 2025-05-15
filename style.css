@@ -270,57 +270,43 @@ button {
 }
 
 .form__input:focus {
-    outline: none;
-    border: 1px solid #29b6f6;
-    background-color: rgba(255, 255, 255, 0.12);
-    box-shadow: 0 0 10px rgba(41, 182, 246, 0.5);
-    transition: all 0.3s ease-in-out;
-  }
-  
+  outline: none;
+  border: 1px solid #29b6f6;
+  background-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 10px rgba(41, 182, 246, 0.5);
+  transition: all 0.3s ease-in-out;
+}
 
-
-
-
-  
-  
 /* Animation */
 
-
 @keyframes float-full {
-    0% {
-      transform: translate(0, 0) rotate(0deg);
-    }
-    25% {
-      transform: translate(15px, -20px) rotate(15deg);
-    }
-    50% {
-      transform: translate(0px, -35px) rotate(0deg);
-    }
-    75% {
-      transform: translate(-15px, -20px) rotate(-15deg);
-    }
-    100% {
-      transform: translate(0, 0) rotate(0deg);
-    }
+  0% {
+    transform: translate(0, 0) rotate(0deg);
   }
-
-  
-  .shape--one {
-    animation: float-full 8s ease-in-out infinite;
+  25% {
+    transform: translate(15px, -20px) rotate(15deg);
   }
-  
-  .shape--two {
-    animation: float-full 10s ease-in-out infinite;
-    animation-delay: 1s;
+  50% {
+    transform: translate(0px, -35px) rotate(0deg);
   }
-  
-  .shape--three {
-    animation: float-full 12s ease-in-out infinite;
-    animation-delay: 2s;
+  75% {
+    transform: translate(-15px, -20px) rotate(-15deg);
   }
-  
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
 
+.shape--one {
+  animation: float-full 8s ease-in-out infinite;
+}
 
+.shape--two {
+  animation: float-full 10s ease-in-out infinite;
+  animation-delay: 1s;
+}
 
-  
-  
+.shape--three {
+  animation: float-full 12s ease-in-out infinite;
+  animation-delay: 2s;
+}
