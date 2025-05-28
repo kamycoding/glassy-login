@@ -132,17 +132,7 @@ button {
   font-size: 18px;
   cursor: pointer;
 }
-/* .form__submit-btn:hover {
-  background-image: linear-gradient(
-    90deg,
-    #29b6f6 0%,
-    #7e57c2 49%,
-    #ef5350 80%,
-    #29b6f6 100%
-  );
-  animation: slidebg 5s linear infinite;
-  color: #fff;
-} */
+
 .form__divider {
   width: 70%;
   height: 1px;
